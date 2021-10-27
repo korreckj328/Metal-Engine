@@ -30,6 +30,9 @@
 		E65B7BC7272866E800593E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E65B7B8E272866E800593E09 /* Assets.xcassets */; };
 		E65B7BC8272866E800593E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E65B7B8E272866E800593E09 /* Assets.xcassets */; };
 		E65B7BC9272866E800593E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E65B7B8E272866E800593E09 /* Assets.xcassets */; };
+		E65B7BD62728756F00593E09 /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65B7BD52728756F00593E09 /* Primitive.swift */; };
+		E65B7BD72728756F00593E09 /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65B7BD52728756F00593E09 /* Primitive.swift */; };
+		E65B7BD82728756F00593E09 /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65B7BD52728756F00593E09 /* Primitive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,7 @@
 		E65B7BB8272866E800593E09 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E65B7BBB272866E800593E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E65B7BBD272866E800593E09 /* Metal_Engine_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Metal_Engine_macOS.entitlements; sourceTree = "<group>"; };
+		E65B7BD52728756F00593E09 /* Primitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primitive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 				E65B7B8C272866E300593E09 /* Renderer.swift */,
 				E65B7B8D272866E300593E09 /* ShaderTypes.h */,
 				E65B7B8E272866E800593E09 /* Assets.xcassets */,
+				E65B7BD52728756F00593E09 /* Primitive.swift */,
 			);
 			path = "Metal-Engine Shared";
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 				E65B7BBE272866E800593E09 /* Shaders.metal in Sources */,
 				E65B7B99272866E800593E09 /* GameViewController.swift in Sources */,
 				E65B7B97272866E800593E09 /* AppDelegate.swift in Sources */,
+				E65B7BD62728756F00593E09 /* Primitive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +300,7 @@
 				E65B7BBF272866E800593E09 /* Shaders.metal in Sources */,
 				E65B7BA9272866E800593E09 /* GameViewController.swift in Sources */,
 				E65B7BA7272866E800593E09 /* AppDelegate.swift in Sources */,
+				E65B7BD72728756F00593E09 /* Primitive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +312,7 @@
 				E65B7BC0272866E800593E09 /* Shaders.metal in Sources */,
 				E65B7BB9272866E800593E09 /* GameViewController.swift in Sources */,
 				E65B7BB7272866E800593E09 /* AppDelegate.swift in Sources */,
+				E65B7BD82728756F00593E09 /* Primitive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

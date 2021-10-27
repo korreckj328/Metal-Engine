@@ -30,12 +30,8 @@ class GameViewController: NSViewController {
 
         mtkView.device = defaultDevice
 
-        guard let newRenderer = Renderer(metalKitView: mtkView) else {
-            print("Renderer cannot be initialized")
-            return
-        }
 
-        renderer = newRenderer
+        renderer = Renderer(metalView: mtkView)
 
         renderer.mtkView(mtkView, drawableSizeWillChange: mtkView.drawableSize)
 
